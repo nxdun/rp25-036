@@ -691,10 +691,10 @@ section {
 }
 
 .about .image-box {
-  background: url("../img/c2.jpg") center center no-repeat;
+  /* background: url("../img/apeprojecteka/About_image_1.png") center center no-repeat; */
   background-size: cover;
   min-height: 400px;
-  padding-left: 100px;
+  padding-left: 10px;
   padding-right: 100px;
 }
 
