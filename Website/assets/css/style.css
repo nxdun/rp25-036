@@ -454,6 +454,8 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-title h2 {
@@ -463,6 +465,8 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #2c4964;
+  order: 1;
+  transform: none !important;
 }
 
 .section-title h2::before {
@@ -489,6 +493,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  order: 2;
 }
 
 /*--------------------------------------------------------------
